@@ -1,0 +1,20 @@
+Step1: Install virtualbox
+Step2: Install kubectl
+       brew install kubectl
+Step3: Installl minikube
+       brew cask install minikube
+Step4: Get one node kubernetes cluster up
+       minikube start --vm-driver=virtualbox
+Step5: Get the nodes
+       kubectl get nodes
+Step6: To stop the local kubernetes cluster, keeps the configuration
+       minikube stop
+Step7: To remove the local kubernetes cluster
+       minikube delete
+            
+To get the current context
+kubectl config current-context
+
+
+       
+       
