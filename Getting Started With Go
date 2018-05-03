@@ -5,3 +5,16 @@ Getting Started with Go
 4. Statically Typed language
 
 https://play.golang.org/ 
+
+Program 1
+// package declaration
+// used by compiler to find application entry point
+package main
+
+// defines the entry point "main"
+func main() {
+	println("Hello World")
+}
+
+
+
